@@ -173,7 +173,7 @@ if run:
                     max_working_dim=int(max_working_dim),
                     progress_cb=on_stage,
                 )
-            except RegistrationError as e:
+            except Exception as e:
                 st.error(f"Pipeline raised a hard error: {e}")
                 st.stop()
 
