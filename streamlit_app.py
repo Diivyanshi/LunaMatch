@@ -170,7 +170,6 @@ if run:
                     detector=detector, model=model,
                     src_gsd=(src_gsd or None), ref_gsd=(ref_gsd or None),
                     gcp_file=gcp_path,
-                    max_working_dim=int(max_working_dim),
                     progress_cb=on_stage,
                 )
             except Exception as e:
