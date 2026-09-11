@@ -23,7 +23,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from lunar_registration import register, RegistrationError
+from lunar_registration import register
 
 st.set_page_config(page_title="Lunar Image Registration", layout="wide")
 
